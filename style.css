@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
+
+  background:linear-gradient();
 }
 
 .page {
@@ -27,6 +29,8 @@ ul {
 a {
   text-decoration: none;
   color: #1f1534;
+
+  cursor: pointer;
 }
 
 ul li a:hover {
@@ -69,9 +73,23 @@ h1 span {
 button {
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
-
-  background-color: #69b99d;
   color: white;
+
+  background: #69b99d;
+  padding: 14px 32px 15px;
+  border: none;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4ea788;
 }
 
 footer {
